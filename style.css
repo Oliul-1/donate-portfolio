@@ -9,8 +9,8 @@ section{
     background-image: url(donate-today-main/images/donation5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    color:rgb(216, 115, 13); 
-    font-weight: bold;
+    color:white;
+    font-size: 30px;
 
     
 }
@@ -66,6 +66,13 @@ a{
    background-color: burlywood;
 
 } 
+form{
+    background-color: dimgray;
+    padding: 50px;
+    width: 400px;
+    text-align: center;
+    margin-left: 30%;
+}
 
 
 
