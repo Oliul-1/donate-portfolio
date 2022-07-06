@@ -1,0 +1,76 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+section{
+    padding: 10%;
+}
+.first-one{
+    background-image: url(donate-today-main/images/donation5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:rgb(216, 115, 13); 
+    font-weight: bold;
+
+    
+}
+.first-one h1{
+    
+}
+a{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: beige;
+    font-weight: 700;
+    margin-top: 40px;
+    border-radius: 5px;
+    
+}
+.donation-row{
+    display: flex;
+    margin-left: 15%;
+    width: 40%;
+    padding: 2%;
+}
+.row{
+    width: 40%;
+    padding: 10%;
+   
+} 
+
+
+.plans-row{
+    display: flex;
+   
+   
+}
+.plans-row div{
+    width: 100%;
+    padding: 20px;
+    margin: 15px;
+}
+#food {
+    background-color: blanchedalmond;
+}
+#shelter{
+    background-color: darkkhaki;
+}
+#education{
+    background-color: aquamarine;
+}
+
+#select{
+   border: 3px solid tomato;
+   border-radius: 5px;
+   background-color: burlywood;
+
+} 
+
+
+
+footer{
+    background-color: black;
+    color: whitesmoke;
+    padding: 30px;
+}
