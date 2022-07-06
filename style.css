@@ -6,24 +6,26 @@ section{
     padding: 10%;
 }
 .first-one{
-    background-image: url(donate-today-main/images/donation5.jpg);
+    background-image: url(donate-today-main/images/donation9.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color:white;
-    font-size: 30px;
+    font-size: 30px;   
+}
+span{
+    color: coral;
+}
+.first-one p{
+    color: black;
+}
 
-    
-}
-.first-one h1{
-    
-}
 a{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
     color: beige;
     font-weight: 700;
-    margin-top: 40px;
+    margin-top: 60px;
     border-radius: 5px;
     
 }
@@ -32,6 +34,9 @@ a{
     margin-left: 15%;
     width: 40%;
     padding: 2%;
+}
+#amount{
+    margin-bottom: 40px;
 }
 .row{
     width: 40%;
@@ -64,9 +69,20 @@ a{
    border: 3px solid tomato;
    border-radius: 5px;
    background-color: burlywood;
-
 } 
-form{
+
+#width{
+    display: flex;
+}
+.half-width{
+    padding: 10px;
+    width: 50%;
+}
+.half-width img{
+    position: relative;
+    width: 500px;
+}
+#mail-button{
     background-color: dimgray;
     padding: 50px;
     width: 400px;
